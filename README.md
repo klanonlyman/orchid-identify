@@ -14,7 +14,14 @@
 預訓練model: https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth </br>
 
 </br>
-如果不使用執行程式碼流程: </br>
+使用colab 執行程式碼流程: </br>
+
+1. 上傳訓練資料放入到到名為 data的資料夾 (包含CSV跟圖片) 跟預訓練權重 swin_large_patch4_window12_384_22k.pth 
+2. 照著block 執行
+3.最後會生成結果在result的資料夾裡面
+
+
+不使用colab 執行程式碼流程: </br>
 
 1. 將訓練資料放入到到名為 data的資料夾 (包含CSV跟圖片) 跟預訓練權重 swin_large_patch4_window12_384_22k.pth 放入此目錄底下
 2. 執行程式碼 data_augmentation.py
