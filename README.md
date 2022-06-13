@@ -27,9 +27,15 @@
 
 
 
-code 執行流程:</br>
-  1. train.py (開始訓練model) </br>
-  2. predict.py (輸出結果為result.csv) </br>
+每個code的功能:</br>
+  1.data_augment_tool.py : 各個資料增強的方法 
+  2.data_augmentation.py : 資料增強 生成圖片跟對應的CSV檔
+  3.train_class.py : 將資料增強的資料分配到對應label的資料夾
+  4.model.py : 模組架構
+  5.utils.py : 訓練跟資料組裝
+  6.my_dataset.py: 讀取資料
+  7.train.py : 訓練模型API
+  8.predict.py: 預測並生成對應的CSV
 
 
 
