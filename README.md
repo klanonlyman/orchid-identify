@@ -16,13 +16,13 @@
 </br>
 如果不使用執行程式碼流程: </br>
 
-1. 將訓練資料放入到到名為 data的資料夾
+1. 將訓練資料放入到到名為 data的資料夾 (包含CSV跟圖片)
 2. 執行程式碼 data_augmentation.py
-3. 此時會生成 名為data_augmentation的資料夾
-4. 執行程式碼 train_class.py
+3. 此時會生成 名為data_augmentation的資料夾 (包含CSV跟圖片)
+4. 執行程式碼 train_class.py 
 5. 會生成名為 train資料夾 裡面的每個資夾分別對應一個label
 6. 執行程式碼 train.py 會生成每個epoch的權重
-7. 執行predict.py 去生成對應的submission.csv
+7. 執行predict.py 去生成對應的submission.csv (這裡預測是拿 55 57 62 的weight)
 
 
 
