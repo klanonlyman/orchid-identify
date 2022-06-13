@@ -16,7 +16,7 @@
 </br>
 如果不使用執行程式碼流程: </br>
 
-1. 將訓練資料放入到到名為 data的資料夾 (包含CSV跟圖片)
+1. 將訓練資料放入到到名為 data的資料夾 (包含CSV跟圖片) 跟預訓練權重 swin_large_patch4_window12_384_22k.pth 放入此目錄底下
 2. 執行程式碼 data_augmentation.py
 3. 此時會生成 名為data_augmentation的資料夾 (包含CSV跟圖片)
 4. 執行程式碼 train_class.py 
