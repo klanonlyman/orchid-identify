@@ -22,7 +22,8 @@
 4. 執行程式碼 train_class.py 
 5. 會生成名為 train資料夾 裡面的每個資夾分別對應一個label
 6. 執行程式碼 train.py 會生成每個epoch的權重
-7. 執行predict.py 去生成對應的submission.csv (這裡預測是拿 55 57 62 的weight)
+7. 把測試集的資料放到名為 test的資料夾
+8. 執行predict.py 去生成對應的submission.csv (這裡預測是拿 55 57 62 的weight)
 
 
 
