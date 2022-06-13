@@ -18,7 +18,7 @@
 
 1. 上傳訓練資料放入到到名為 data的資料夾 (包含CSV跟圖片) 跟預訓練權重 swin_large_patch4_window12_384_22k.pth
 2. 上傳各個.py2檔
-3. 照著block 執行
+3. 執行colab.ipynb照著block 執行
 4.最後會生成結果在result的資料夾裡面
 
 
