@@ -1,4 +1,4 @@
-使用swin-transformer辨識農作物
+使用swin-transformer辨識蘭花品種
 
 
 環境部分: (參考以下網址https://blog.csdn.net/qq_36622589/article/details/117913064) </br>
